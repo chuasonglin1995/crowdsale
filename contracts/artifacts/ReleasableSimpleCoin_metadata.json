@@ -62,12 +62,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "released",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "bool",
 						"name": "",
-						"type": "address"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -105,7 +105,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SimpleCoin.sol": "SimpleCoin"
+			"contracts/ReleasableSimpleCoin.sol": "ReleasableSimpleCoin"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -119,20 +119,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Ownable.sol": {
-			"keccak256": "0x174daf08b7968a23b5b363212fb536fbeebec4a0074dc0d0718eed123b51cd42",
+		"contracts/ReleasableSimpleCoin.sol": {
+			"keccak256": "0x7490ef803f5533d46eb5f29f9f930b07238c1ae74751232ab3ad2fcfb3778b12",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4a2d26b114fd00da43b864650d6fde869d40c26826b7e485ee6eb3a3ae3c6fd1",
-				"dweb:/ipfs/QmUQMfjhuymG1SYobszXRT6vKRugfGHVR8vUywt7NjPS8R"
+				"bzz-raw://b8ef9e9255628249b52c94c832708162df2e925f342becfb03ad61d6e6832555",
+				"dweb:/ipfs/QmcDKQqxHj11LA8sU4snxvzWMEsZZ9iyKP66GB6RN9kYYo"
 			]
 		},
 		"contracts/SimpleCoin.sol": {
-			"keccak256": "0x573c960c4922ace87c7b1b3f56f46f2f9d8d963e65cc9750ee6f1c77184dc232",
+			"keccak256": "0x3288b9531df06b889173b1d2301ad56cfa09c771cc9a51b37aa9374e1fc60f87",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://235d98682d3917103dc06251fcb3bd449c754e570a822a67b873ec1afdd56f97",
-				"dweb:/ipfs/QmYaRZqQjJX897BgbuiUV4teVjnieDVr22Wtrk37ghxqNy"
+				"bzz-raw://ed5024ac2e17502b9ba3505f6b1e610a33b91caeac3f5da5dfa20b08533ddc31",
+				"dweb:/ipfs/QmaFgW8KEB9rPW6a81yJWiJeYuZm8XqX5yEYDutMDmtvdt"
 			]
 		}
 	},
