@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 <0.9.0;
+import "./ReleasableSimpleCoin.sol";
 
 contract SimpleCrowdsale {
     uint256 public startTime;
