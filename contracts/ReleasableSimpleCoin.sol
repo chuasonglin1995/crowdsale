@@ -14,15 +14,15 @@ contract ReleasableSimpleCoin is SimpleCoin {
 
     constructor(uint256 _initialSupply) SimpleCoin(_initialSupply) {}
 
-    function release() onlyOwner public {
+    function release() public {
         released = true;
     }
 
-    function transfer(address _to, uint256 _amount) isReleased public {
+    function transfer(address _to, uint256 _amount) public override isReleased {
         super.transfer(_to, _amount);
     }
 
-    function transferFrom(adress _from, address _to, uint256 _amount) isReleased public returns (bool) {
+    function transferFrom(address _from, address _to, uint256 _amount) public override isReleased returns (bool) {
         super.transferFrom(_from, _to, _amount);
     }
 
